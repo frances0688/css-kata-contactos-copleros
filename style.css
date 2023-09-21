@@ -1,0 +1,43 @@
+body {
+    background-color: #5b9eed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555555;
+    margin-top: 5%
+}
+
+main {
+    background-color: #ffffff;
+    margin: 0 15%;
+    padding: 5% 3%;
+    align-content: stretch;
+}
+
+section {
+    display: flex;
+    gap: 5%;
+}
+
+hr {
+    opacity: .25;
+}
+
+img {
+    border-radius: 50%;
+    width: 6em;
+    height: 6em;
+}
+
+div {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+h3 {
+    margin: 0 0 3%;
+}
+
+address {
+    font-style: normal;
+    color: #b4b2b2;
+}
