@@ -8,17 +8,18 @@ body {
 main {
     background-color: #ffffff;
     margin: 0 15%;
-    padding: 5% 3%;
+    padding: 3% 3%;
     align-content: stretch;
 }
 
 section {
     display: flex;
     gap: 5%;
+    padding: 2%;
 }
 
-hr {
-    opacity: .25;
+.borderBottom {
+    border-bottom: 1px solid rgba(0, 0, 0, .25);
 }
 
 img {
